@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Hasil Pemesanan Barang</title>
+</head>
+<body>
+
+    <!-- Menu Navigasi -->
+    <table border="1" width="100%">
+        <tr align="center">
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Register</a></td>
+            <td><a href="#">Policy</a></td>
+            <td><a href="#">About</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form>
+        <table>
+            <tr>
+                <!-- Kolom kiri: gambar -->
+                <td valign="top">
+                    <!-- Ganti nama file dengan gambar sampul buku kamu -->
+                    <img src="img/image.png" alt="Sampul Buku Orang-Orang Hilang di Kyushu" width="200" height="300" border="1">
+                </td>
+
+                <!-- Kolom kanan: detail dan form pembayaran -->
+                <td valign="top">
+                    <table>
+                        <tr>
+                            <td>Title Here</td>
+                            <td>:</td>
+                            <td>Buku Novel Orang-Orang Hilang di Kyushu</td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Description</td>
+                            <td valign="top">:</td>
+                            <td>
+                                Kategori : Novel Misteri<br>
+                                Penulis : Han Go-un<br>
+                                Penerbit : 13 Feb 2026<br>
+                                Tanggal Terbit : 13 Februari 2026<br>
+                                Sinopsis : Lima orang menghilang tanpa jejak di Kyushu setelah menerima surat misterius, mengungkap rahasia masa lalu dan persahabatan.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total Amount</td>
+                            <td>:</td>
+                            <td>Rp. 99.000</td>
+                        </tr>
+                        <tr>
+                            <td>Pay to</td>
+                            <td>:</td>
+                            <td>00228769</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Payment Type</td>
+                            <td>:</td>
+                            <td>
+                                  <option value="Mandiri">Mandiri</option>
+   <option value="Transfer Bank">Transfer Bank</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Account Holder</td>
+                            <td>:</td>
+                            <td><input type="text" name="account_holder" value="ami" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Send to</td>
+                            <td>:</td>
+                            <td>
+                                <input type="text" name="send_to" value="0516-2008" size="40">
+                                <br>
+                                <input type="checkbox" name="send_phone" checked> Mobile Phone
+                                <br>
+                                <input type="checkbox" name="email_copy" checked> Email
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Send to Mobile Phone</td>
+                            <td>:</td>
+                            <td><input type="text" name="mobile_phone" value="1234" size="40"></td>
+                        </tr>
+                        <tr>
+                            <td>Send to Email</td>
+                            <td>:</td>
+                            <td><input type="text" name="email" value="amiesterdam@gmail.com" size="40"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td><button type="submit">Pay using bank transfer</button></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
